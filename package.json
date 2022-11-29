@@ -1,0 +1,24 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "recipe application",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Tharindu Thennakoon",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.26.1",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
+    "node-sass": "^8.0.0",
+    "parcel": "^2.8.0",
+    "regenerator-runtime": "^0.13.11",
+    "saas": "^1.0.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0"
+  }
+}
